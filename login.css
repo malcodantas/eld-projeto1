@@ -1,0 +1,64 @@
+:root{
+    --google-color:#2ecc71;
+    --linkedin-color:#3498db;
+    --github-color:#95a5a6;
+    --animation-duration:.7s;
+}
+@keyframes iconanimation {
+    30%{
+        transform: rotate(-15deg);
+        border-radius: 50%;
+        ;}
+    50%{
+        transform: rotate(0deg);
+        border-radius: 50%;
+
+    }
+    100%{
+        transform: rotate(15deg);
+        border-radius: 100%;
+        
+        }
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+.input-form{
+    padding: 15px;
+    width: 300px;
+}
+.ou{
+    display: flex;
+    justify-content: center;
+    margin-top: -20;
+}
+.btn-primary{
+    background-color: #3498db;
+}
+.google:hover{
+    animation-name: iconanimation;
+    animation-duration: var(--animation-duration);
+    animation-iteration-count: infinite;
+    background-color: var(--google-color);
+    transition-delay: var(--animation-duration );
+}
+.linked-in:hover{
+    animation-name: iconanimation;
+    animation-duration: var(--animation-duration);
+    animation-iteration-count: infinite;
+    background-color: var(--linkedin-color);
+    transition-delay: var(--animation-duration );
+}
+.github:hover{
+    animation-name: iconanimation;
+    animation-duration: var(--animation-duration);
+    animation-iteration-count: infinite;
+    background-color: var(--github-color);
+    transition-delay: var(--animation-duration );
+}
