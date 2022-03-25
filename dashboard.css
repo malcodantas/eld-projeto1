@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: red;
+    padding: 15px;
+}
+main{
+    /* background-color: blueviolet */
+}
+
+nav > div > ul > li{
+    padding: 10px;
+}
+i{
+    margin-right: 10px;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+
+.block-info{
+    padding: 20px;
+    border-radius: 10px;
+    margin: 2px;
+}
+.card > div > img{
+    width: 50px;
+    float: right;
+    margin-top: 0px;
+}
+
+.card_cancelamento{
+    background-color: #f9ca24;
+}
+.card_vendas{
+    background-color:#e056fd ;
+}
+.card_contas_a_receber{
+    background-color:#6ab04c ;
+}
+.card_contas_a_pagar{
+    background-color: #eb4d4b;
+}
+.card-title , .card-subtitle{
+    color: white;
+    font-weight: bold;
+}
