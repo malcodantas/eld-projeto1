@@ -10,9 +10,20 @@
   </head>
   <body>
     <div class="container-fluid">
-        <div class="row">
-            <header>
-                header ainda para
+        <div class="row text-white">
+            <header class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h2 class="text-weith font-weight-bold"> ISP Admin </h2>
+                </div>
+                <div >
+                    <a href="#" data-container="body" data-toggle="popover"  data-placement="bottom" data-content="O relatório financeiro foi enviado por email.">
+                            <i class="fa fa-solid fa-bell text-white ">
+                                <span class="badge rounded-pill badge-notification bg-danger">1</span>
+
+                            </i>
+                    </a>
+                    <a href="#"><i class="fa fa-solid fa-user text-white"> Meu Perfil</i></a>
+                </div>
             </header>
         </div>
     
@@ -369,7 +380,9 @@
                 }]
                 },
         });
-            
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
         </script>
   </body>
 </html>
