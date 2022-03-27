@@ -1,9 +1,3 @@
-<style>
-img[src*='#center'] {
-    display: block;
-    margin: auto;
-}
-</style>
 <p align="center">
   <a href="" rel="noopener">
  <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
@@ -43,7 +37,7 @@ O cenário escolhido foi para uma dashboard de um ISP - *Internet service provid
 
 ![Tela inicial da dashboard](./docs/img/dashboard.png)
 
-### 🧐 Responsividade <a name = "responsividade"></a>
+### 🧐  Responsividade <a name = "responsive"></a>
 Um dos requisitos mais desejados para o projeto é a responsividade, garantir que independente do tamanho da tela do dispostivo que acessar o site, o usuário terá o minimo de condições para utilizar a dashboard. Como é possível ver abaixo, Este projeto atende a o requisito da responsividade. 
 <br>
 
